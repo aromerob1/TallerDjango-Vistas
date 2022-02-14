@@ -18,9 +18,9 @@ def measurements_view(request):
             measurements = serializers.serialize('json', measurements_dto)
             return HttpResponse(measurements, 'application/json')
 
-        if request.method == 'POST':
-            measurement_dto = ml.create_measurement(json.loads(request.body))
-            measurement = serializers.serialize('json', [measurement_dto, ])
+    if request.method == 'POST':
+        measurement_dto = ml.create_measurement(json.loads(request.body))
+        measurement = serializers.serialize('json', [measurement_dto, ])
         return HttpResponse(measurement, 'application/json')
 
 @csrf_exempt
