@@ -1,3 +1,13 @@
+![alt text](https://github.com/aromerob1/TallerDjango-Vistas/blob/master/Screenshot%202022-02-14%20020436.png?raw=true)
+
+![alt text](https://github.com/aromerob1/TallerDjango-Vistas/blob/master/Screenshot%202022-02-14%20020506.png?raw=true)
+
+![alt text](https://github.com/aromerob1/TallerDjango-Vistas/blob/master/Screenshot%202022-02-14%20020526.png?raw=true)
+
+![alt text](https://github.com/aromerob1/TallerDjango-Vistas/blob/master/Screenshot%202022-02-14%20020546.png?raw=true)
+
+
+
 # Monitoring Views Workshop
 
 * if you want a easy installation use **pipenv\*** else use **requirements.txt**
