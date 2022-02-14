@@ -18,6 +18,6 @@ def update_measurement(mea_pk, new_mea):
     return measurement
 
 def create_measurement(mea):
-    measurement = Measurement(variable=Variable("Prueba"), value=mea["value"], unit=mea["unit"], place=mea["place"])
+    measurement = Measurement(variable=Variable(1), value=mea["value"], unit=mea["unit"], place=mea["place"])
     measurement.save()
     return measurement
